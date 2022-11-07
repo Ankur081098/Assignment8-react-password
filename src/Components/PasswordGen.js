@@ -100,16 +100,16 @@ const [output,setOutput ] = useState("");
     let length = lengthVar;
     let password = "";
 
-    if (checkUpper == true){
+    if (checkUpper === true){
         finalChar=finalChar+upperCaseChar
     }
-    if (checkLower == true){
+    if (checkLower === true){
         finalChar=finalChar+lowerCaseChar
     }
-    if (checkmiddle == true){
+    if (checkmiddle === true){
         finalChar=finalChar+numbers
     }
-    if (checkLast == true){
+    if (checkLast === true){
         finalChar=finalChar+symbols
     }
 
